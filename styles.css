@@ -1,0 +1,250 @@
+/*font*/
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/*Shared style*/
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.display-flex {
+    display: flex;
+}
+
+.btn-primary {
+    padding: 12px 30px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10000px;
+
+    background: linear-gradient(45deg,
+            rgba(247, 233, 63, 1),
+            rgba(251, 9, 180, 1),
+            rgba(145, 0, 248, 1));
+
+}
+
+/*navbar style*/
+.navbar {
+    border: 1px solid black;
+    max-width: 1600px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+    background-color: #1A0B2E;
+
+}
+
+.navbar li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    gap: 32px;
+
+}
+
+.logo img {
+    width: 219px;
+    height: 32px;
+}
+
+
+
+/*hero-section styles*/
+#hero-section {
+    max-width: 1600px;
+    height: 100%;
+    border: 1px solid red;
+    background-image: url("./assets/hero-bg.png");
+    background-position: center;
+
+}
+
+.hero-container {
+    border: 1px solid white;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+
+
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-circle {
+    height: 350px;
+    width: 350px;
+}
+
+.microphone {
+    position: absolute;
+}
+
+.new-icon {
+    position: absolute;
+    margin-left: 275px;
+    margin-bottom: 240px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+/*ABOUT SECTION STYLES*/
+#about {
+    max-width: 1600px;
+    background-color: #1A0B2E;
+    /* margin: 0 auto; */
+
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    /* border: 1px solid white; */
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.line {
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin-bottom: 80px;
+}
+
+.numbers {
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    /* padding-bottom: 120px; */
+}
+
+.data {
+    text-align: center;
+}
+
+.n-title {
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.numbers p {
+    font-size: 16px;
+    height: 20px;
+    color: white;
+}
+
+/*techwave section css*/
+#techwave {
+    max-width: 1600px;
+    background-color: #230E3D;
+    margin: 0 auto;
+
+}
+
+.tw-title h2 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.grid-area-container {
+    max-width: 1200;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+
+.grid-area-container>* {
+    /* border: 1px solid white; */
+    padding: 40px;
+}
+
+.premium {
+    grid-area: premium;
+}
+
+.mobile {
+    grid-area: mobile;
+}
+
+.global {
+    grid-area: global;
+}
+
+.exclusive {
+    grid-area: exclusive;
+}
+
+.rich {
+    grid-area: rich;
+}
+
+.grid-area-container {
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: 225px 225px 273px;
+    gap: 30px;
+    grid-template-areas:
+        "premium mobile mobile"
+        "premium global global"
+        "exclusive exclusive rich";
+}
+
+.g-card {
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.g-card h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.g-card p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    height: 24px;
+}
+
+.g-card img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 16px;
+}
