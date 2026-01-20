@@ -119,7 +119,8 @@ nav ul li a {
 .about-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     /* border: 1px solid white; */
 }
 
@@ -172,11 +173,17 @@ nav ul li a {
 
 }
 
+.techwave-container {
+    margin: 0px auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .tw-title h2 {
     color: white;
+    font-size: 48px;
     font-weight: bold;
     margin-bottom: 40px;
-    padding-top: 120px;
     text-align: center;
 }
 
@@ -256,9 +263,11 @@ nav ul li a {
 }
 
 .featured-container {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .f-title h2 {
@@ -266,7 +275,6 @@ nav ul li a {
     text-align: center;
     font-size: 48px;
     font-weight: bold;
-    margin-top: 120px;
     margin-bottom: 40px;
 }
 
@@ -307,4 +315,76 @@ nav ul li a {
     max-width: 380px;
     border-radius: 24px 24px 0px 0px;
     overflow: hidden;
+}
+
+/*host section css*/
+#host {
+    background-color: #1A0B2E;
+}
+
+.host-section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+
+}
+
+.host-section-title h2 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.host-content {
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+}
+
+.host-img img {
+    width: 200px;
+    height: 200px;
+    margin: 40px 24px 40px 40px;
+}
+
+.host-text-icon {
+    margin: 48px 40px 48px 0px;
+}
+
+.host-text-icon h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.host-text-icon p {
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+/* .icon-container {
+    justify-content: center;
+    align-items: center;
+} */
+
+.icon {
+    border: 1px dotted #533C72;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    /* vertical center */
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.icon img {
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
 }
