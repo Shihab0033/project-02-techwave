@@ -248,3 +248,63 @@ nav ul li a {
     width: 60px;
     margin-bottom: 16px;
 }
+
+/*featured section css*/
+#featured {
+    background-color: #1A0B2E;
+    max-width: 1600px;
+}
+
+.featured-container {
+    border: 1px solid white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.f-title h2 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.f-card-container {
+    gap: 30px;
+}
+
+.f-card {
+    max-width: 380px;
+    max-height: 440px;
+    background-color: #250D44;
+    border-radius: 24px 24px 24px 24px;
+}
+
+.f-card h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 24px 24px 12px 24px;
+}
+
+.f-card p {
+    color: white;
+
+    margin: 0px 24px 12px 24px;
+}
+
+.time {
+    margin: 12px 24px 24px 24px;
+}
+
+.time h4 {
+    color: white;
+    margin-left: 6px;
+}
+
+.iframe-wrapper {
+    max-width: 380px;
+    border-radius: 24px 24px 0px 0px;
+    overflow: hidden;
+}
