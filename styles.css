@@ -509,3 +509,79 @@ footer {
 .footer-container small {
     color: white;
 }
+
+/*media query for small device*/
+@media screen and (max-width:576px) {
+    .logo img {
+        align-items: start;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #nav-button {
+        display: none;
+    }
+
+    .f-card-container,
+    .host-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .numbers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .techwave-container {
+        margin: 0px auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .grid-area-container {
+        display: grid;
+        grid-template-columns: 400px;
+        /* grid-template-rows: 400px; */
+        grid-template-areas:
+            "premium"
+            "mobile"
+            "global"
+            "exclusive"
+            "rich";
+    }
+
+    .g-card {
+        background-color: rgba(53, 17, 101, 0.4);
+        border-radius: 30px;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .g-card img {
+        height: 20px;
+        width: 20px;
+        margin-bottom: 10px;
+    }
+
+    .host-img img {
+        margin: 0 auto;
+    }
+
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .footer-logo img {
+        width: 200px;
+        height: 30px;
+    }
+}
